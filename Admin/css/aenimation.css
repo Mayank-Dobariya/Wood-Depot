@@ -1,0 +1,139 @@
+@keyframes lod{
+  0% {
+      left: 0;
+    }
+    50% {
+      left: 100%;
+    }
+    100% {
+      left: 0;    
+    }
+  
+}
+@keyframes shake{
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  
+  30%, 50%, 70% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+}
+}
+
+
+@keyframes shake2{
+10%, 90% {
+  transform: translate3d(-6px, 0, 0);
+}
+20%, 80% {
+  transform: translate3d(6px, 0, 0);
+}
+
+30%, 50%, 70% {
+  transform: translate3d(-6px, 0, 0);
+}
+40%, 60% {
+  transform: translate3d(6px, 0, 0);
+}
+}
+
+@keyframes header_f
+{
+  0%{
+      transform: translateY(-100%);
+  }
+  100%{
+      transform: translateY(0%);
+  }
+}
+
+
+/* loader aenimatio start */
+
+@keyframes rotate2 {
+
+0% {
+
+    transform: rotate(0deg);
+
+}
+
+50% {
+
+    margin-top: 15px;
+
+}
+
+100% {
+
+    transform: rotate(-90deg);
+
+}
+
+}
+
+@keyframes rotate1 {
+
+0% {
+
+    transform: rotate(0deg);
+
+}
+
+50% {
+
+    margin-top: 20px;
+
+}
+
+100% {
+
+    transform: rotate(90deg);
+
+}
+
+}
+/* loader aenimatio end */
+/* header scroll aenimation strt */
+@keyframes header_f
+{
+  0%{
+      transform: translateY(-100%);
+  }
+  100%{
+      transform: translateY(0%);
+  }
+}
+/* header scroll aenimation  end */
+/* rocket aenimatio start---------- */
+@keyframes bottom
+{
+  0%
+  {
+      top: -100px;
+  }
+  100%
+  {
+      /* top: calc(100vh - 20px); */
+      top:90vh;
+  }
+}
+
+@keyframes top
+{
+  0%
+  {
+      top: 90vh;
+  }
+  100%
+  {
+      top: -10px;
+  }
+}
+/* rocket aenimatio end---------- */
